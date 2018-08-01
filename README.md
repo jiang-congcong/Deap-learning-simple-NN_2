@@ -9,3 +9,5 @@
  python 里可以通过这行代码来完成这个计算 ： 
 
 loss = tf.reduce_sum(tf.where(tf.greater(y,y_),(y-y_)*COST,(y_-y)*PROFIT))
+
+下面是我的csdn链接，里面有详细讲解和运行效果截图： https://blog.csdn.net/congcong7267/article/details/81279440
